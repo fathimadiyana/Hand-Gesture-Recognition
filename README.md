@@ -49,3 +49,22 @@ Clone the repository:
 ```bash
 git clone https://github.com/fathimadiyana/Hand-Gesture-Recognition.git
 cd Hand-Gesture-Recognition
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+Run the Streamlit app:
+
+python -m streamlit run app.py
+
+Open in browser:
+
+http://localhost:8501
+Output
+
+The dashboard allows users to train the model and upload a hand gesture image. The model predicts the gesture class and displays the confidence score.
+
+Conclusion
+
+This project helped me understand image preprocessing, classification, and how machine learning can be used for gesture-based control systems.
